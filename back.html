@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Management</title>
+    <link rel="stylesheet" href="styles/style1.css">
+    <script defer src="scripts/logica1.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h3>Lista de Usuários</h3>
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Login</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+        </table>
+    </div>
+
+    
+    <div id="editModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3>Editar Usuário</h3>
+            <form id="editForm">
+                <input type="text" id="editLogin" disabled>
+                <input type="password" id="editSenha" placeholder="Nova senha">
+                <button type="submit">Salvar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bilbatupla Project</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/logica.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="loginSection">
+            <form id="loginForm">
+                <h3>Login</h3>
+                <input type="text" placeholder="login" id="login">
+                <input type="password" placeholder="senha" id="senha">
+                <input type="submit" id="loginSubmit" value="Login" disabled>
+                <p id="error-message" style="color: red;"></p>
+            </form>
+            <button id="showRegister">Registrar-se</button>
+        </div>
+        
+        <div id="registerSection" style="display: none;">
+            <form id="registerForm">
+                <h3>Registro</h3>
+                <input type="text" placeholder="novo login" id="newLogin">
+                <input type="password" placeholder="nova senha" id="newSenha">
+                <input type="password" placeholder="senha de administrador" id="adminSenha">
+                <input type="submit" id="registerSubmit" value="Registrar" disabled>
+                <p id="register-message" style="color: green;"></p>
+            </form>
+            <button id="showLogin">Voltar ao Login</button>
+        </div>
+    </div>
+</body>
+</html>
