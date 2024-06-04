@@ -1,5 +1,6 @@
 # Site 
 Site simples criado em HTML
+<a href="tublasite.netlify.app">Click aqui para ver a versão final. </a>.
 <h1> Gerência de Configuração e Controle de Versão </h1>
 <h2> Professor • Luiz Fernando Nunes </h2>
 <body>
