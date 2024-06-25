@@ -8,7 +8,7 @@ Site simples criado em HTML
   <ul>
     <li> Gabriel Tonon Barreiros </li>
     <li> Leonardo Dias Santana Ribeiro </li>
-    <li> Adicionado branchs + request </li>
   </ul>
+<h2> Adicionado branchs + request </h2>
  </html>
 
